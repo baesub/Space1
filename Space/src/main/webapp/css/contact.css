@@ -1,0 +1,30 @@
+.contact-sns {
+  display: flex;
+  justify-content: center;
+  padding-top:200px;
+}
+
+
+.contact-sns a {
+	display:inline-block;
+	width:3rem;
+	text-align:center;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.contact-sns li {
+background-color: #000;
+border: 1px solid whitesmoke;
+border-radius: 50%;
+padding:1rem;
+  margin: 1rem;
+  list-style: none;
+}
+
+.contact-sns li:hover {
+	background-color: whitesmoke;
+}
+.contact-sns li a:hover {
+	color: black;
+}
